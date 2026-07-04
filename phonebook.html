@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Phone Book</title>
+    <style>
+.container{
+    width:100%;/* เต็มจอสำหรับมือถือ */
+    max-width:420px; /* แต่ใหญ่สุดไม่เกิน 420px เมื่อเปิดบนคอม */
+    margin:0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */
+    font-weight:bold;
+    background:#fff;
+    border-radius:4px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+table{
+    width:100%;
+	color:#bf360c;
+    border-collapse:collapse;
+}
+th,td{
+    border:2px dashed #e0e0e0;
+    padding:12px 10px;/* เพิ่มพื้นที่กดบนมือถือให้จิ้มง่ายขึ้น */
+    text-align:left;
+}
+a{
+    color:#bf360c;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+            <th>Name</th>
+	        <th>Tel no.</th>
+        </tr> 
+        <tr>
+		    <td>TA Tle</td>
+		    <td><a href="tel:083-4284942">083-4284942</a></td>
+	    </tr>
+        <tr>
+            <td>KFC</td>
+            <td><a href="tel:1150">1150</a></td>
+        </tr>
+        <tr>
+            <td>Pizza Hut</td>
+            <td><a href="tel:1112">1112</a></td>
+        </tr>
+        <tr>
+  	        <td>Yayoi-ยาโยอิ</td>
+	        <td><a href="tel:1642">1642</a></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
